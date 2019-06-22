@@ -33,3 +33,23 @@ This week was all about the Design Sprint 2.0. It was supposed to be a 4 day act
 ### Week 3
 
 As I was not from the Web development field, I had no idea about PWA. On monday we reseached more about PWA and how we should be starting with it. We came across [Net Ninja PWA Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gTxqJBcDmoi5Q2pzDusSL7) on Youtube. It showed how to start with PWA using Vanilla JS and HTML. So we decided to start along with it and ended up getting along a MPA(Multiple Page Application) creation. On wednesday, in a discussion our senior got to know that we were working on a MPA and not a SPA. So he told us to first research on it and then we had a meeting with one of our's technical expert. He told us about the problems that we will be facing in future to create animations and various other things in Vanilla JS. Also he told us that MPA will also create a lot of problem to us in future. So he guided us to either choose Vue.js or React and create a SPA to avoid problems in future. On thursday and friday, we learned about vue.js and compared with react. I found Vue.js better than react and also it's documentation was really good. So I discussed along with my colleague and we both decided that we will be going along with Vue.js as it is easier to learn than React. I read about the pros and cons of react and vue in this [medium article](https://medium.com/fundbox-engineering/react-vs-vue-vs-angular-163f1ae7be56). It gave me a lot of insights about the difference between react and vue and which one should one pursue. After deciding about Vue, we discussed this with our senior and he was onboard with our decision. On saturday, We documented all of our week's work and that maked the end of my week 3 at Pudle!
+
+### Week 4
+
+Getting started with Vue.js. I read the documentation of Vue.js on Sunday and saw some videos which cleared my basics regarding this framework. After gaining some insights about this framework, I started to work in Vue and started implementing Leaflet.js in it. On Monday, I was able to add Map into our website and all the functions that we needed in future. I used [Algolia Places API](https://www.algolia.com/) to implement places searching function in our website. I found this API better than the Geocoder of Mapbox and not as good as Google Places API but considering the price difference between the both, this was the best option for us. We discussed and agreed on this part. On Tuesday, We met with our technical advisor [Piyush Gururani](https://www.linkedin.com/in/gururani/). He helped us in solving some of the problems that we were facing and later in a meeting he advised us to first complete the UI part of the application and then focus on connecting the backend to it. So we agreed with that and started working on the UI part. I took the job to complete the UI of the Personal details and family details form and the Center Details page in the website. We compared some of the Vue.js Front-end frameworks by reading the article [Choosing the right Front end framework for your Vue app](https://medium.com/the-web-tub/choosing-the-right-front-end-framework-for-your-vue-app-4448bac12ce7). We decided to go along with Bootstrap vue as I gave us the ability to customize according to our needs. For the next 3 days, I was working on the Front end development of the page. Some of the codes that helped me to get started with Bootstrap vue were: 
+
+```markdown
+### Installation using NPM(Considering Vue CLI is installed otherwise install vue too)
+`npm install vue-bootstrap bootstrap`
+
+### Importing in Main.js
+`import Vue from 'vue'
+import BootstrapVue from 'bootstrap-vue'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
+
+Vue.use(BootstrapVue)`
+
+```
+
+More details can be found at [this](https://bootstrap-vue.js.org/docs/). All the components are easily customizable according to our needs and very less problems are faced if used correctly. Also, If unable to use it or customize it, we can easily customise the input fields or buttons of the Vue.js libraries without facing mucn problem. That was all for this week. 
